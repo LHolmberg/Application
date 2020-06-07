@@ -12,7 +12,6 @@ class ApplicationTests: XCTestCase {
     
     func testHelloWorld() {
         var helloWorld: String?
-        helloWorld = "dau"
         XCTAssertNil(helloWorld)
     }
 
