@@ -12,6 +12,7 @@ class ApplicationTests: XCTestCase {
     
     func testHelloWorld() {
         var helloWorld: String?
+        helloworld = "sasssssss"
         XCTAssertNil(helloWorld)
     }
 
