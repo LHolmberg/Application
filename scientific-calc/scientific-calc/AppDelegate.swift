@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Application
+//  scientific-calc
 //
 //  Created by Lukas Holmberg on 2020-06-07.
 //  Copyright © 2020 Stefan Holmberg. All rights reserved.
