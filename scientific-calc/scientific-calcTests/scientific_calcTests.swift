@@ -12,6 +12,6 @@ import XCTest
 class scientific_calcTests: XCTestCase {
     
     func testHello() {
-        XCTAssertEqual("2", "2")
+        XCTAssertEqual("2", "3333")
     }
 }
