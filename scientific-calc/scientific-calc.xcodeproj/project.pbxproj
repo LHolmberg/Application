@@ -13,6 +13,7 @@
 		8193D3CD248D3B20005C1998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8193D3CC248D3B20005C1998 /* Assets.xcassets */; };
 		8193D3D0248D3B20005C1998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8193D3CE248D3B20005C1998 /* LaunchScreen.storyboard */; };
 		8193D3DB248D3B20005C1998 /* scientific_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193D3DA248D3B20005C1998 /* scientific_calcTests.swift */; };
+		8193D3E9248D4303005C1998 /* DataHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193D3E8248D4303005C1998 /* DataHandeler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8193D3D6248D3B20005C1998 /* scientific-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scientific-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8193D3DA248D3B20005C1998 /* scientific_calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scientific_calcTests.swift; sourceTree = "<group>"; };
 		8193D3DC248D3B20005C1998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8193D3E8248D4303005C1998 /* DataHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandeler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		8193D3C4248D3B1E005C1998 /* scientific-calc */ = {
 			isa = PBXGroup;
 			children = (
+				8193D3E5248D42CD005C1998 /* Model */,
+				8193D3E7248D42E1005C1998 /* Controller */,
 				8193D3C5248D3B1E005C1998 /* AppDelegate.swift */,
-				8193D3C7248D3B1E005C1998 /* ViewController.swift */,
 				8193D3C9248D3B1E005C1998 /* Main.storyboard */,
 				8193D3CC248D3B20005C1998 /* Assets.xcassets */,
 				8193D3CE248D3B20005C1998 /* LaunchScreen.storyboard */,
@@ -94,6 +97,22 @@
 				8193D3DC248D3B20005C1998 /* Info.plist */,
 			);
 			path = "scientific-calcTests";
+			sourceTree = "<group>";
+		};
+		8193D3E5248D42CD005C1998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8193D3E8248D4303005C1998 /* DataHandeler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8193D3E7248D42E1005C1998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8193D3C7248D3B1E005C1998 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +218,7 @@
 			files = (
 				8193D3C8248D3B1E005C1998 /* ViewController.swift in Sources */,
 				8193D3C6248D3B1E005C1998 /* AppDelegate.swift in Sources */,
+				8193D3E9248D4303005C1998 /* DataHandeler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
