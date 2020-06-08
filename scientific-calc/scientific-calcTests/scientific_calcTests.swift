@@ -11,7 +11,24 @@ import XCTest
 
 class scientific_calcTests: XCTestCase {
     
-    func testHello() {
-        XCTAssertEqual("2", "2")
+    func testDerivative() {
+        let data = DataHandeler(action: "derive", equation: "x*x")
+        data.FetchData() { (returnValue) in
+            XCTAssertEqual("2 x", returnValue.result)
+        }
+    }
+    
+    func testIntegration() {
+        let data = DataHandeler(action: "integrate", equation: "2x")
+        data.FetchData() { (returnValue) in
+            XCTAssertEqual("x^2", returnValue.result)
+        }
+    }
+    
+    func testCosine() {
+        let data = DataHandeler(action: "derive", equation: "pi")
+        data.FetchData() { (returnValue) in
+            XCTAssertEqual("-1", returnValue.result)
+        }
     }
 }
